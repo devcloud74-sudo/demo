@@ -7,7 +7,7 @@ app = FastAPI(title="Railway Demo API")
 
 @app.get("/")
 def home():
-    return {
+    returni {
         "message": "FastAPI app deployed successfully on Railway 🚀",
         "timestamp": datetime.utcnow().isoformat(),
         "environment": os.getenv("RAILWAY_ENVIRONMENT", "local")
